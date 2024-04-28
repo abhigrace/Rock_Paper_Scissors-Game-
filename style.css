@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color:#081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+       
+}
+
+.choice{
+    height: 166px;
+    width: 166px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;/*to make object inside image fit */
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;/*This ll make images to be in horizantal*/
+    justify-content: center;/*to make it in center..!!*/
+    gap: 3rem;
+    margin-top: 75px;
+}
+.choice:hover{
+   /* opacity: 50%;/*to make it blur*/
+    cursor: pointer;/*it ll change the cursor to hand-type*/
+    background-color: #081b31;
+    
+
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    gap: 5.5rem;
+}
+
+
+#user-score,#comp-score{
+    font-size :4rem ;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+
+    background-color: #081b31;
+    color: white;
+    font-size:2rem ;
+    display:inline ;/*to highlight only the contents written*/
+    padding: 1rem;
+    border-radius: 1rem;
+}
